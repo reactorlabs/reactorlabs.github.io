@@ -22,7 +22,6 @@ body,td,th {
 }
 body {
 	background-color: #000;
-	background-image: url('images/bg-pattern1.png');
 	background-repeat: repeat-y;
 }
 -->
@@ -92,7 +91,7 @@ body {
     =========================================================-->
     <main class="page-content">
         <!-- RD Parallax -->
-        <section class="rd-parallax wow fadeIn top-section" data-on="false" data-lg-on="true">
+        <section class="fixed-height rd-parallax wow fadeIn top-section" data-on="false" data-lg-on="true">
           <div class="rd-parallax-layer" data-speed="0" data-md-speed="0.4" data-type="media" data-url="images/header-parallax.jpg" ></div>
           <div class="rd-parallax-layer well-lg--inset1" data-speed="0" data-type="html" data-fade="false">
           </div>
@@ -106,26 +105,11 @@ body {
                 <div class="row">
                     <div class="col-lg-9 col-lg-preffix-1 wow fadeIn">
                         <div class="row flow-offset-1">
-                            <div class="col-sm-4 col-xs-6"></div>
-
-                            <div class="col-sm-4 col-xs-6"></div>
-
-                            <div class="col-sm-4 col-xs-6"></div>
-
-                            <div class="col-sm-4 col-xs-6">
+                            <div class="col-md-12">
                                 <p><img src="images/page-3_img06.jpg" width="273" height="297" alt="" class="border-round2 swing2"></p>
-                                <p>&nbsp;</p>
                                 <p>R is a language for statistical computing and visualization. In the 20 years of its existence, it has become defacto lingua franca in data science ranging from computational statistics, to econometrics and to bioinformatics.</p>
                                 <p>One of the greatest advantages of R is its huge library (called packages), a trusted and verified source of almost any thinkable statistical algorithm ready to be applied to the problem at hand. </p>
                                 <p>Despite its immense success, R faces many challenges from the changing environment - especially regarding BigData as the language itself lacks any support for parallel, or distributed computing.</p>
-                                <p align="center">&nbsp;</p>
-                                <p>&nbsp; </p>
-                                <h3>&nbsp;</h3>
-                                <p>&nbsp;</p>
-                                <p>&nbsp;</p>
-                                <p>&nbsp;</p>
-                                <p align="center">&nbsp;</p>
-                                <p>&nbsp; </p>
                             </div>
                         </div>
                     </div>
@@ -137,14 +121,19 @@ body {
         <section class="well-sm--inset3">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-preffix-1 col-lg-10 wow fadeIn">
+                    <div class="col-lg-preffix-1 col-lg-10 wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
                         <h5>featured products</h5>
+
                         <div class="row flow-offset-2">
                             <div class="col-md-6">
-                                <h3>&nbsp;</h3>
+
                             </div>
-                            <div class="col-md-6"> </div>
+
+                            <div class="col-md-6">
+
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </div>

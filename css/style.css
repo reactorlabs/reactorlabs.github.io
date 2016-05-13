@@ -4337,7 +4337,7 @@ h4, .heading-4 {
 
 h5, .heading-5 {
   font-size: 22px;
-  color: #000;
+  color: #fff;
   text-transform: uppercase;
 }
 @media (min-width: 768px) {
@@ -12031,4 +12031,10 @@ html.boxed .rd-navbar--is-clone {
 .rd-navbar-nav a {
   font-weight: bold;
   font-size:20px;
+}
+.container p {
+  text-indent: 25px;
+}
+.fixed-height {
+  height:400px !important;
 }

@@ -4358,7 +4358,7 @@ h6, .heading-6 {
 }
 
 p a:hover, .list a:hover, .contact-info a:hover {
-  color: #CCC;
+  color: white;
 }
 
 mark {
@@ -9666,7 +9666,7 @@ a.icon-primary:hover {
   margin-right: auto;
 }
 .rd-navbar-inner {
-  background-color:#ccc;
+  background-color:#888;
 }
 .rd-navbar-static .rd-navbar-nav > li > .rd-navbar-dropdown, .rd-navbar-fullwidth .rd-navbar-nav > li > .rd-navbar-dropdown {
   display: block;
@@ -9966,7 +9966,7 @@ a.icon-primary:hover {
 }
 .rd-navbar-fixed .rd-navbar-nav li.active > a,
 .rd-navbar-sidebar .rd-navbar-nav li.active > a {
-  color: #fff;
+  color: #ccc;
   /* background: #f5bd3b; */
   /* zmena barvy */
   background-color:#999;
@@ -10346,7 +10346,7 @@ html.rd-navbar-sidebar-linked body {
   background-color:#888888;
   box-shadow: none;
   color: #fff;
-  padding:0px 4px 0px 0px;
+  padding: 0px 0px 0px 0px;
   left: 0;
 }
 .rd-navbar-sidebar::-webkit-scrollbar {
@@ -10383,7 +10383,7 @@ html.rd-navbar-sidebar-linked body {
   font-size: 14px;
 }
 .rd-navbar-sidebar .rd-navbar-nav li:hover > a, .rd-navbar-sidebar .rd-navbar-nav li:hover > a:hover, .rd-navbar-sidebar .rd-navbar-nav li.focus > a, .rd-navbar-sidebar .rd-navbar-nav li.focus > a:hover {
-  color: #FFF;
+  color: #ccc;
   /*background: #f5bd3b; */
   /* zmena barvy */
   transition: 0.2s;
@@ -10424,7 +10424,7 @@ html.rd-navbar-sidebar-linked body {
   padding: 9px 40px 6px 36px;
 }
 .rd-navbar-sidebar .rd-navbar-nav li > a:hover, .rd-navbar-sidebar .rd-navbar-nav li > a:focus {
-  color: #fff;
+  color: #ccc;
   background: #ccc;
   box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.21);
 }
@@ -10469,7 +10469,6 @@ html.rd-navbar-sidebar-linked body {
   /*background: #f5bd3b; */
   /* zmena barvy */
   background:#888;
-  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.21);
   padding: 18px 0 22px 37px;
   letter-spacing: 1px;
 }
@@ -11534,8 +11533,8 @@ html.boxed .rd-navbar--is-clone {
   height: 50px;
   font-size: 24px;
   line-height: 46px;
-  color: #000000;
-  background: #ffffff;
+  color: #fff;
+  background: #888;
   border-radius: 50%;
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.12), 3px 4px 8px 0px rgba(0, 0, 0, 0.11);
   position: fixed;
@@ -11549,7 +11548,7 @@ html.boxed .rd-navbar--is-clone {
   transform: translateY(100px);
 }
 .ui-to-top:hover {
-  color: #FFF;
+  color: #000;
   background: #CCC;
   text-decoration: none;
   transition: 0.2s;
@@ -12023,7 +12022,6 @@ html.boxed .rd-navbar--is-clone {
   background-color:#888;
   padding: 24px 0 20px;
   font-size: 18px;
-  color: #FFF;
 }
 .page-footer a:hover {
   color: #fff;
@@ -12035,6 +12033,9 @@ html.boxed .rd-navbar--is-clone {
 }
 .container p {
   text-indent: 25px;
+}
+.container a {
+  color:#ccc;
 }
 .fixed-height {
   height:400px !important;

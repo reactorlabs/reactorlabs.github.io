@@ -1,185 +1,203 @@
 ﻿<!DOCTYPE html>
-<html lang="en" class="wide wow-animation">
+<html lang="en">
+
 <head>
-    <!-- Site Title -->
-    <title>Home</title>
-    <meta name="format-detection" content="telephone=no"/>
-    <meta name="viewport"
-          content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
 
-    <!-- Stylesheets -->
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,800,700%7cRaleway:400,100,300,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <!--[if lt IE 10]>
-    <script src="js/html5shiv.min.js"></script>
+    <title>Reactorlabs</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<!--    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"> -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">
-<!--
-body,td,th {
-	font-size: 18px;
-	color: #CCC;
-}
-body {
-	background-color: #000;
-}
 
-li.active {
-    /* zmena barvy */
-    background-color:#888;
-}
--->
-</style></head>
-<body>
-<!-- The Main Wrapper -->
-<div class="page">
-    <!--For older internet explorer-->
-    <div class="old-ie" style='background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;'>
-        <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
-            <img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820"
-                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
-        </a>
-    </div>
-    <!--END block for older internet explorer-->
+</head>
 
-    <!--========================================================
-                              HEADER
-    =========================================================-->
-    <div class="page-header">
-        <!-- RD Navbar -->
-        <div class="rd-navbar-wrap">
-            <nav class="rd-navbar" data-rd-navbar-lg="rd-navbar-sidebar">
-                <div class="rd-navbar-inner">
-                    <!-- RD Navbar Panel -->
-                    <div class="rd-navbar-panel">
-                        <!-- RD Navbar Toggle -->
-                        <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar"><span></span></button>
-                        <!-- END RD Navbar Toggle -->
-                        <!-- RD Navbar Brand -->
-                        <div class="rd-navbar-brand">
-                            <a href="index.html" class="brand-name primary-color">
-                                
-                            </a>
-                        </div>
-                        <!-- END RD Navbar Brand -->
-                    </div>
-                    <!-- END RD Navbar Panel -->
-                    <div class="rd-navbar-nav-wrap">
-                        <!-- RD Navbar Nav -->
-                        <ul class="rd-navbar-nav">
-                            <li class="active">
-                                <a href="index.html">Home</a>
-                            </li>
-                            <li>
-                                <a href="index-1.html">Who we are</a>
-                            </li>
-                            <li>
-                                <a href="index-2.html">About R</a>
-                            </li>
-                            <li>
-                                <a href="index-4.html">Contacts</a>
-                            </li>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <!--<i class="fa fa-play-circle"></i>-->
+                    <span class="light">Reactor</span> Labs
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#wedo">What we do</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#weare">Who we are</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                    <!--
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More... <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="languages.html">Languages</a></li>
+                            <li><a href="tools.html">Tools</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="team.html">Team</a></li>
                         </ul>
-                        <!-- END RD Navbar Nav -->
-                    </div>
-                    <div class="block1">
-
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <!-- END RD Navbar -->
-    </div>
-
-    <!--========================================================
-                              CONTENT
-    =========================================================-->
-    <main class="page-content">
-        <!-- RD Parallax -->
-        <section class="rd-parallax wow fadeIn top-section" data-on="false" data-lg-on="true">
-            <div class="rd-parallax-layer" data-speed="0" data-md-speed="0.4" data-type="media" data-url="images/header-parallax.jpg" ></div>
-            <div class="container">
-                <div class="row row-xs-middle viewport-height well-lg">
-                    <div style="display:block; width:100%; float:none; position:static; text-align:center; z-index:2">
-                        <font size="26">ReactorLabs</font>
-                    </div>
-                </div>
+                    </li>
+                        -->
+                </ul>
             </div>
-        </section>
-        <!-- END RD Parallax-->
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
-        <!-- Who we are -->
-        <section class="bg-default well-md--inset1  text-center text-xs-left">
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-preffix-1  wow fadeIn">
-                        
-                    </div>
-                </div>
-                <div class="row flow-offset-2">
-                    <div class="col-lg-4 col-lg-preffix-1  wow fadeIn text-center">
-
-                            <span style="font-size: 40px">What we do</span>
-                        <br />
-                            <span class="big">We are  focusing on improvements across the stack for dynamic languages. Our goal is to make other programmers as productive as possible without limiting their freedom and habits. </span>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- END About -->
-
-        <section class="well-sm text-center text-sm-left">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-9 col-lg-preffix-1 wow fadeIn">
-                    <div class="row flow-offset-2">
-                        <div class="col-sm-12">
-                            <p><img src="images/page-1_img04.jpg" width="273" height="297" alt="" class="border-round2 swing2"></p>
-                            <p>R is a programming language and software environment for statistical computing and graphics supported by the R Foundation for Statistical Computing. The R language is widely used among statisticians and data miners for developing statistical software and data analysis.</p>
-                        </div>
+                    <div class="col-md-12">
+                        <h1 class="brand-heading">REACTORLABS</h1>
+                        <p class="intro-text">
+                            Researchers. Developers. <br />
+                            Engineers. Scientists.
+                            <!--                            We are focusing on improvements across the stack for dynamic languages.<br />
+                                                        Our goal is to make other programmers as productive as possible without limiting their freedom and habits. -->
+                        </p>
+                        <a href="#wedo" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-        </section>
+    </header>
 
-        <section class="well-sm--inset2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <!-- Contact Info -->
-                        <p>Milevska 385</p>
-                        <p>Prague 14000</p>
-                        <p>Czech republic</p>
-                        <p>&nbsp;</p>
-                        <p>E-mail: <a href='mailto:#'>info@reactorlabs.eu</a> </p>
-                        <!-- END Contact Info -->
-                    </div>
-                </div>
+    <!-- About Section -->
+    <section id="wedo" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>What we do</h2>
+                <p>
+                    We love getting our hands dirty.
+                </p>
+                <p>
+                    We help universities and research institutions worldwide to develop their research prototypes, to make them practical and to build them to the highest industrial standards.
+                </p>
+                <p>
+                    We design and develop tools for programmers. Tools that make them as productive as possible without limiting their freedom and habits.
+                </p>
+                <p>
+                    We provide consulting in our areas - R programming language and statistics, Javascript and dynamic languages, C++, virtual machines and compilers.
+                </p>
             </div>
-        </section>
-    </main>
-    <!--========================================================
-                              FOOTER
-    ==========================================================-->
-    <footer class="page-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-120 text-center">
-                    ReactorLabs  © <span id="copyright-year">All rights reserved    <span class="rd-navbar--switch-to-desktop"></span></span>
-                </div>
+        </div>
+    </section>
 
-                        <!-- {%FOOTER_LINK} -->
+    <!-- Download Section -->
+    <section id="weare" class="content-section text-center">
+        <div class="download-section row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Who we are</h2>
+                <p>
+                    We believe in progress, that to improve something, it must first be understood, and that to understand something, a lot of experience is required. Above all, we are programmers ourselves.
+                </p>
+                <p>
+                    We believe that great things require not only bold ideas, but solid foundations as well. We are scientists too. We learn new things on a daily basis and we help others learn what we did.
+                </p>
+                <p>
+                    We believe that we are lucky, because we can do what we <em>love</em>.
+                </p>
+                <p>
+                    Currently, we focus on <a href="https://www.r-project.org/" target="_blank">R</a> and <a href="http://www.ecmascript.org/" target="_blank">Javascript</a>.
+                </p>
             </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Get in touch</h2>
+                <p>
+                    Do you use some of our tools? We would love to hear your feedback! Do you miss a tool, but don't have the expertise or time to build it yourself? We may be able to help, and we love open source!
+                </p>
+                <p>
+                    Do you simply want to say hello and talk geekish? Drop us an email:
+                </p>
+                <p>
+                    <a href="mailto:info@reactorlabs.eu">info@reactorlabs.eu</a>
+                </p>
+                <p>
+                    Or be social: <br />
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <!--
+                    <li>
+                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                        -->
+                    <li>
+                        <a href="https://github.com/reactorlabs" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <!--                    <li>
+                                            <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                                        </li>-->
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; ReactorLabs 2014</p>
+            <p style="credits">Created using <a href="">bootstrap</a> and <a href="">grayscale</a></p>
         </div>
     </footer>
-</div>
 
-<!-- Core Scripts -->
-<script src="js/core.min.js"></script>
-<!-- Additional Functionality Scripts -->
-<script src="js/script.js"></script>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
 </body>
+
 </html>

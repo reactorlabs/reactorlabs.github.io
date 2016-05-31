@@ -1,0 +1,200 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Reactorlabs</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="index.html">
+                    <!--<i class="fa fa-play-circle"></i>-->
+                    <span class="light">Reactor</span> Labs
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#genthat">genthat</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#advisors">testr</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#rjit">RJit</a>
+                    </li>
+<!--
+                    <li>
+                        <a class="page-scroll" href="#jshealth">Jakub's JS</a>
+                    </li>
+
+    -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More... <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="index.html">ReactorLabs</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="languages.html">Languages</a></li>
+                            <li><a href="tools.html">Tools</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="team.html">Team</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="brand-heading">Our Tools</h1>
+                        <p class="intro-text">
+                            Several of our past and current projects are not specific to research, but can be useful to practitioners as well. We list the most interesting ones here, others can be found on  our <a href="">Github</a>.<br />
+                        </p>
+                        <a href="#team" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="genthat" class="container content-section text-center">
+        <h2>genthat</h2>
+        <p>
+            GenThat is R package for automated generation of regression tests. It can intercept calls to R functions at runtime and store the arguments and return values. Once the call data is collected, genthat uses the records to generate tests in testthat format (a popular testing package in R). The generated tests can then be pruned based on increased code coverage.
+        </p>
+        <p>
+            GenThat is aimed at R package developers and provides support for generating tests from package vignettes and examples, as well as adding new regressions to existing tests from previously failing uses of the package.
+        </p>
+        <p>
+            GenThat is currently pending acceptance to CRAN repositories. <!--, but you can already get it from Github: -->
+        </p>
+<!--
+        <ul class="list-inline banner-social-buttons">
+            <li>
+                <a href="https://github.com/reactorlabs" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+            </li>
+        </ul>
+    -->
+    </section>
+
+    <section id="advisors" class="container content-section text-center">
+        <h2>testR</h2>
+        <p>
+            TestR a test suite and test generator mapping the features of the R language and providing an automated language specification harness. The tests are simple enough to provide easy failure detections and serve as a great start for any compliance regression suite. We have also created frameworks for extracting the tests automatically from existing R sources (including tests for R builtin functions) and the test execution, regression and benchmarking on various R virtual machines.
+        </p>
+        <p>
+            The framework and the test suite was presented to the R community at the UseR! 2013 conference when we won the best poster award.
+        </p>
+<!--        <ul class="list-inline banner-social-buttons">
+            <li>
+                <a href="https://github.com/reactorlabs" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+            </li>
+        </ul>
+
+    -->
+    </section>
+
+    <section id="rjit" class="container content-section text-center">
+        <h2>Rjit</h2>
+        <p>
+            RJit is an optimizing speculative Just-In-Time compiler for the R language.
+        </p>
+        <p>
+            The project is under active development now, which you can track on GitHub:
+        </p>
+        <ul class="list-inline banner-social-buttons">
+            <li>
+                <a href="https://github.com/reactorlabs/rjit" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+            </li>
+        </ul>
+    </section>
+<!--
+    <section id="jshealth" class="container content-section text-center">
+        <h2>Jakub's JS thing</h2>
+        <p>
+            Javascript big code analyzer, package health monitor, etc. etc. 
+        </p>
+        <p>
+            Should move to our github!
+        </p>
+        <ul class="list-inline banner-social-buttons">
+            <li>
+                <a href="https://github.com/reactorlabs" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+            </li>
+        </ul>
+    </section>
+
+    -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; ReactorLabs 2014</p>
+            <p style="credits">Created using <a href="">bootstrap</a> and <a href="">grayscale</a></p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
+</body>
+
+</html>
